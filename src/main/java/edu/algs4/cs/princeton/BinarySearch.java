@@ -32,6 +32,7 @@ package edu.algs4.cs.princeton;
  *  [367,966 total values]
  *
  ******************************************************************************/
+
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
@@ -71,9 +72,13 @@ public class BinarySearch {
         while (lo <= hi) {
             // Key is in a[lo..hi] or not present.
             int mid = lo + (hi - lo) / 2;
-            if (key < a[mid]) hi = mid - 1;
-            else if (key > a[mid]) lo = mid + 1;
-            else return mid;
+            if (key < a[mid]) {
+                hi = mid - 1;
+            } else if (key > a[mid]) {
+                lo = mid + 1;
+            } else {
+                return mid;
+            }
         }
         return -1;
     }
@@ -110,13 +115,14 @@ public class BinarySearch {
 
         // sort the array
         Arrays.sort(allowlist);
+//mvn install:install-file -Dfile=D:\apache-maven-3.6.3\repository\wuroc\algs\1.0.0\algs4-1.0.1.jar -DgroupId=wuroc -DartifactId=algs -Dversion=1.0.1 -Dpackaging=jar -DgeneratePom=true
 
         // read integer key from standard input; print if not in allowlist
         while (!StdIn.isEmpty()) {
             int key = StdIn.readInt();
             if (BinarySearch.indexOf(allowlist, key) == -1) {
                 StdOut.println(key);
-            }else {
+            } else {
                 StdOut.println(BinarySearch.indexOf(allowlist, key));
             }
         }
