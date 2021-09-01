@@ -42,5 +42,23 @@ public class ObjNullComputer {
             System.out.println("test");
             System.out.println(string);
         }
+
+        //测试hashmap
+        HashMap<Integer,String> hashMap = new HashMap<>();
+        Integer i = 1000, p = 900,m = 500;
+        String M = "M";
+        String CM = "CM";
+        String D = "D";
+        hashMap.put(i,M);
+        hashMap.put(p,CM);
+        hashMap.put(m,D);
+        System.out.println(hashMap);
+
+        //测试Hashtab
+        LinkedHashMap<Integer,String> linkedHashMap = new LinkedHashMap<>();
+        linkedHashMap.put(i,M);
+        linkedHashMap.put(p,CM);
+        linkedHashMap.put(m,D);
+        System.out.println(linkedHashMap);
     }
 }
