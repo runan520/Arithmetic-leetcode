@@ -158,6 +158,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RegularExpressionMatching.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/RegularExpressionMatching.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RegularExpressionMatching.java" />
+              <option name="questionId" value="10" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ReverseInteger.java">
           <value>
             <LeetcodeEditor>
@@ -235,8 +244,8 @@
         <entry key="$PROJECT_DIR$/../demo/Arithmetic-leetcode/src/main/java/leetcode/editor/cn/RegularExpressionMatching.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/../demo/Arithmetic-leetcode/src/main/java/leetcode/editor/cn/doc/content/RegularExpressionMatching.md" />
-              <option name="path" value="$PROJECT_DIR$/../demo/Arithmetic-leetcode/src/main/java/leetcode/editor/cn/RegularExpressionMatching.java" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/RegularExpressionMatching.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RegularExpressionMatching.java" />
               <option name="questionId" value="10" />
             </LeetcodeEditor>
           </value>

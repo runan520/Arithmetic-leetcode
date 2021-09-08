@@ -59,6 +59,13 @@ public class ObjNullComputer {
         linkedHashMap.put(i,M);
         linkedHashMap.put(p,CM);
         linkedHashMap.put(m,D);
+        linkedHashMap.put(null,null);
+        linkedHashMap.put(null,null);
         System.out.println(linkedHashMap);
+
+        int[] nums = null;
+        System.out.println("nums:" + nums);
+
+
     }
 }
