@@ -25,7 +25,6 @@ package leetcode.editor.cn;
 // 
 // Related Topics 数组 双指针 排序 👍 3704 👎 0
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -40,47 +39,48 @@ public class ThreeSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<List<Integer>> threeSum(int[] nums) {
+            //先进行排序
             Arrays.sort(nums);
-            int n = nums.length;
-            List<List<Integer>> list = new ArrayList<>();
-            //为空
-            if (nums.length == 0) {
-                return list;
-            }
-            //首先是找到第一个
-            for (int i = 0; i < nums.length; i++) {
-                if (i > 0 && nums[i] == nums[i - 1]) {
+            List<List<Integer>> ans = new ArrayList<>();
+            //然后确定第一个数，每次的第一个数不能重复
+            for (int first = 0; first < nums.length; first++) {
+                //确定第二个，第二个不可以是与前一个相等
+                if (first > 0 && nums[first] == nums[first - 1]) {
                     continue;
                 }
-                //c 对应的是数组的最右边
-                int k = n - 1;
-                int target = -nums[i];
-                for (int j = i + 1; j < n; j++) {
-                    //保证第二个大于第一个
-                    if (j > i + 1 && nums[j] == nums[j - 1]) {
+                //开始第二次循环，第一次的first可以根据数学知识，转换成-first
+                //确定右指针
+                int third = nums.length - 1;
+                int target = -nums[first];
+                //枚举
+                for (int second = first + 1; second < nums.length; second++) {
+                    //需要和上一次枚举的数不相同
+                    if (second > first + 1 && nums[second] == nums[second - 1]) {
                         continue;
                     }
-                    //保证b的指针在c的指针的左侧,这样也保证了第三个数大于前两个
-                    while (j < k && nums[j] + nums[k] > target){
-                        --k;
-                    }
 
-                    //如果两个指针重合，就不会满足a+b+c = 0,并且b < c
-                    if (j == k){
+                    //确定第三个，左指针不可以超过右指针
+                    while (second < third && nums[second] + nums[third] > target) {
+                        --third;
+                    }
+                    //如果指针重合，随着b后续的增加
+                    //就不会有满足a+b+c = 0 并且 b < c 的c了，可以退出循环
+                    if (second == third) {
                         break;
                     }
 
-                    if (nums[j] + nums[k] == target){
-                        List<Integer> integerList = new ArrayList<>();
-                        integerList.add(nums[i]);
-                        integerList.add(nums[j]);
-                        integerList.add(nums[k]);
-                        list.add(integerList);
+                    if (nums[second] + nums[third] == target) {
+                        List<Integer> list = new ArrayList<>();
+                        list.add(nums[first]);
+                        list.add(nums[second]);
+                        list.add(nums[third]);
+                        ans.add(list);
                     }
                 }
             }
-            return list;
+            return ans;
         }
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
