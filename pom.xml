@@ -19,6 +19,15 @@
             <artifactId>algs</artifactId>
             <version>1</version>
         </dependency>
+        <!-- json -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.75</version>
+        </dependency>
+
+
+
     </dependencies>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
