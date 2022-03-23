@@ -14,11 +14,11 @@
             <version>21.0.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>wuroc</groupId>
-            <artifactId>algs</artifactId>
-            <version>1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>wuroc</groupId>-->
+<!--            <artifactId>algs</artifactId>-->
+<!--            <version>1</version>-->
+<!--        </dependency>-->
     </dependencies>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

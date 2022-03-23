@@ -80,7 +80,6 @@ package leetcode.editor.cn;
 public class IntegerToRoman {
     public static void main(String[] args) {
         Solution solution = new IntegerToRoman().new Solution();
-
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
