@@ -30,7 +30,7 @@ import java.util.*;
 public class ThreeSum {
     public static void main(String[] args) {
         Solution solution = new ThreeSum().new Solution();
-        int[] s = new int[]{3,0,-2,-1,1,2};
+        int[] s = new int[]{3, 0, -2, -1, 1, 2};
         System.out.println(solution.threeSum(s));
     }
 
@@ -46,30 +46,32 @@ public class ThreeSum {
 
             Arrays.sort(nums);
 
-            for (int k = 0; k < n; k++) {
+            for (int k = 0; k < n && nums[k] <= 0; k++) {
                 int target = -nums[k];
-                int i = k+1;
-                int j = n - 1;
-                while (i < j) {
-                    if (target > nums[i] + nums[j]) {
-                        j--;
-                    } else if (target < nums[i] + nums[j]) {
-                        i++;
-                    } else if (target == nums[i] + nums[j]) {
-                        list = new ArrayList<>();
-                        list.add(nums[k]);
-                        list.add(nums[i]);
-                        list.add(nums[j]);
-                        i++;
-                        j--;
-                        if (!result.contains(list)) {
-                            result.add(list);
-                        }
-                    }
+                if (k == 0 || nums[k] != nums[k - 1]) {
+                    twoSum(nums, result, n, k, target);
                 }
             }
 
             return result;
+        }
+
+        private void twoSum(int[] nums, List<List<Integer>> result, int n, int k, int target) {
+            List<Integer> list;
+            int i = k + 1;
+            int j = n - 1;
+            while (i < j) {
+                if (target < nums[i] + nums[j]) {
+                    j--;
+                } else if (target > nums[i] + nums[j]) {
+                    i++;
+                } else {
+                    list = new ArrayList<>();
+                    result.add(Arrays.asList(nums[k], nums[i], nums[j]));
+                    i++;
+                    j--;
+                }
+            }
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
