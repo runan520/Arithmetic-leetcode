@@ -67,7 +67,7 @@ public class TwoSum {
 
                 int key = target - nums[i];
                 //判断map里是否含有target - nums[i]值
-                if (hashMap.containsKey(key)){
+                if (hashMap.containsKey(key)) {
                     int k = hashMap.get(key);
                     return new int[]{k, i};
                 }

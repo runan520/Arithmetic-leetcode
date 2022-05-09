@@ -1,4 +1,4 @@
-package leetcode.editor.en;
+package leetcode.editor.cn;
 
 //Given a string s, find the length of the longest substring without repeating 
 //characters. 
@@ -37,36 +37,38 @@ package leetcode.editor.en;
 // 0 <= s.length <= 5 * 10⁴ 
 // s consists of English letters, digits, symbols and spaces. 
 // 
-// Related Topics Hash Table String Sliding Window 👍 19856 👎 905
+// Related Topics 哈希表 字符串 滑动窗口 👍 6638 👎 0
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         Solution solution = new LongestSubstringWithoutRepeatingCharacters().new Solution();
-        System.out.println(solution.lengthOfLongestSubstring("dvdf"));
+
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-    public class Solution {
+    class Solution {
         public int lengthOfLongestSubstring(String s) {
-
+            int rk = -1;
+            int ans = 0;
             int n = s.length();
-            int res = 0;
 
-            Map<Character, Integer> map = new HashMap<>();
-
-            for (int i = 0, j = 0; j < n; j++) {
-
-                if (map.containsKey(s.charAt(j))) {
-                    i = Math.max(i, map.get(s.charAt(j)));
+            Set<Character> occ = new HashSet<Character>();
+            for (int i = 0; i < n; ++i) {
+                if (i != 0) {
+                    //做指针向右移动一格,移除一个字符
+                    occ.remove(s.charAt(i - 1));
                 }
 
-                res = Math.max(res, j - i + 1);
-                map.put(s.charAt(j), j + 1);
+                while (rk + 1 < n && occ.add(s.charAt(rk + 1))) {
+                    //不断的移动右指针
+                    ++rk;
+                }
+                ans = Math.max(ans, rk - i + 1);
             }
-            return res;
+            return ans;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
