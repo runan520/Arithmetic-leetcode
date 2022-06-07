@@ -45,7 +45,7 @@ public class MaxConsecutiveOnes {
                 if (nums[i] == 1) {
                     count++;
                     result = Math.max(result, count);
-                }else {
+                } else {
                     count = 0;
                 }
             }
