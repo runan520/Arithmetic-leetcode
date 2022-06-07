@@ -25,17 +25,53 @@ package leetcode.editor.en;
 // 
 // Related Topics Math String Simulation 👍 4359 👎 1730
 
-public class MultiplyStrings{
-  public static void main(String[] args) {
-    Solution solution = new MultiplyStrings().new Solution();
-    
-  }
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public String multiply(String num1, String num2) {
-        return "";
+public class MultiplyStrings {
+    public static void main(String[] args) {
+        Solution solution = new MultiplyStrings().new Solution();
+        System.out.println(solution.multiply("123456789", "987654321"));
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public String multiply(String num1, String num2) {
+
+            int n1 = num1.length();
+            int n2 = num2.length();
+
+            Long[] nums1 = new Long[n1];
+            Long[] nums2 = new Long[n2];
+
+            long sum = 0;
+            int index = 10;
+
+            extracted(num1, n1, nums1, index);
+            extracted(num2, n2, nums2, index);
+
+            for (int i = 0; i < n1; i++) {
+
+                for (int j = 0; j < n2; j++) {
+                     sum += nums1[i] * nums2[j];
+                }
+            }
+
+            return String.valueOf(sum);
+        }
+
+        private void extracted(String num, int n, Long[] nums, int index) {
+            //每次都乘10
+            for (int i = n - 1; i >= 0; i--) {
+
+
+                Long parseInt = Long.parseLong(Character.toString(num.charAt(i)));
+                if (i == n-1) {
+                    nums[i] = parseInt;
+                } else {
+                    nums[i] = parseInt * index;
+                    index *= 10;
+                }
+            }
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
