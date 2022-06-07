@@ -45,23 +45,21 @@ public class DuplicateZeros {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public void duplicateZeros(int[] arr) {
-            int count = 0;
-            for (int i = 0; i <= arr.length - count; i++) {
+
+            for (int i = 0; i < arr.length; i++) {
                 int temp = arr[i];
                 if (temp == 0) {
-
-                    count++;
+                    inPlace(i, arr.length, arr);
+                    i++;
                 }
             }
-
-            int last = arr.length - count - 1;
-            for (int i = last; i > 0; i--) {
-
-            }
-
         }
 
-
+        private void inPlace(int i, int length, int[] arr) {
+            for (int j = length - 1; j > i; j--) {
+                arr[j] = arr[j - 1];
+            }
+        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
