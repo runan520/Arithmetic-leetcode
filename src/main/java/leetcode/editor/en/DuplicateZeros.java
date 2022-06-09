@@ -38,26 +38,36 @@ package leetcode.editor.en;
 public class DuplicateZeros {
     public static void main(String[] args) {
         Solution solution = new DuplicateZeros().new Solution();
-        int[] arr = new int[]{1, 0, 2, 3, 0, 4, 5, 0};
+        int[] arr = new int[]{8,4,5,0,0,0,0,7};
         solution.duplicateZeros(arr);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public void duplicateZeros(int[] arr) {
+            int len = arr.length - 1;
+            int count = 0;
 
-            for (int i = 0; i < arr.length; i++) {
-                int temp = arr[i];
-                if (temp == 0) {
-                    inPlace(i, arr.length, arr);
-                    i++;
+            for (int i = 0; i <= len - count; i++) {
+                if (arr[i] == 0) {
+                    //这个就是最后一个是零
+                    if (i == len - count) {
+                        arr[len] = 0;
+                        len -= 1;
+                        break;
+                    }
+                    count++;
                 }
             }
-        }
-
-        private void inPlace(int i, int length, int[] arr) {
-            for (int j = length - 1; j > i; j--) {
-                arr[j] = arr[j - 1];
+            int flag = len - count;
+            for (int i = flag; i >= 0; i--) {
+                if (arr[i] != 0) {
+                    arr[i + count] = arr[i];
+                } else {
+                    arr[i + count] = 0;
+                    count--;
+                    arr[i + count] = 0;
+                }
             }
         }
     }

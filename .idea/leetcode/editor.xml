@@ -80,6 +80,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MergeSortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MergeSortedArray.md" />
+              <option name="frontendQuestionId" value="leetcode.com88" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MergeSortedArray.java" />
+              <option name="titleSlug" value="merge-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MultiplyStrings.java">
           <value>
             <LeetcodeEditor>
