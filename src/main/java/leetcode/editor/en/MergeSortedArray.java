@@ -62,22 +62,28 @@ import java.util.Arrays;
 public class MergeSortedArray {
     public static void main(String[] args) {
         Solution solution = new MergeSortedArray().new Solution();
-
+        int[] a = new int[]{1, 2, 3, 0, 0, 0};
+        int[] b = new int[]{1, 2, 3};
+        solution.merge(a, 6, b, 3);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public void merge(int[] nums1, int m, int[] nums2, int n) {
-            if (m != 0 && n != 0) {
-                for (int i = 0; i < n; i++, m++) {
-                    nums1[m] = nums2[i];
+            int p1 = m - 1;
+            int p2 = n - 1;
+
+            for (int p = m + n - 1; p >= 0; p--) {
+
+                if (p2 < 0) {
+                    break;
                 }
-            } else if (m == 0 && n !=0) {
-                for (int i = 0; i < n; i++) {
-                    nums1[i] = nums2[i];
+                if (p1 >= 0 || (nums1[p1] > nums2[p2])) {
+                    nums1[p] = nums1[p1--];
+                } else {
+                    nums1[p] = nums2[p2--];
                 }
             }
-            Arrays.sort(nums1);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
