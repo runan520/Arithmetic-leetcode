@@ -59,7 +59,7 @@ public class ValidMountainArray {
             while (i + 1 < length && arr[i] > arr[i + 1]) {
                 i++;
             }
-            return i==length-1;
+            return i == length - 1;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
