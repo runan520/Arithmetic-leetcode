@@ -35,17 +35,33 @@ package leetcode.editor.en;
 // 
 // Related Topics Array 👍 2167 👎 145
 
-public class ValidMountainArray{
-  public static void main(String[] args) {
-    Solution solution = new ValidMountainArray().new Solution();
-    
-  }
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public boolean validMountainArray(int[] arr) {
-        return true;
+public class ValidMountainArray {
+    public static void main(String[] args) {
+        Solution solution = new ValidMountainArray().new Solution();
+
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public boolean validMountainArray(int[] arr) {
+
+            int length = arr.length;
+            int i = 0;
+
+            while (i + 1 < length && arr[i] < arr[i + 1]) {
+                i++;
+            }
+
+            if (i == 0 || i == length - 1) {
+                return false;
+            }
+
+            while (i + 1 < length && arr[i] > arr[i + 1]) {
+                i++;
+            }
+            return i==length-1;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
