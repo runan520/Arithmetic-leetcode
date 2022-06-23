@@ -31,17 +31,33 @@ package leetcode.editor.en;
 // 
 // Related Topics Array Two Pointers Sorting 👍 3582 👎 123
 
-public class SortArrayByParity{
-  public static void main(String[] args) {
-    Solution solution = new SortArrayByParity().new Solution();
-    
-  }
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] sortArrayByParity(int[] nums) {
-        return new int[]{0};
+public class SortArrayByParity {
+    public static void main(String[] args) {
+        Solution solution = new SortArrayByParity().new Solution();
+        int[] arr = new int[]{17, 18, 5, 4, 6, 1};
+        System.out.println(solution.sortArrayByParity(arr));
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int[] sortArrayByParity(int[] nums) {
+            int n = nums.length;
+            int j = 0;
+            int rigth = n - 1;
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++) {
+
+                if (nums[i] % 2 == 0) {
+                    arr[j] = nums[i];
+                    j++;
+                } else {
+                    arr[rigth] = nums[i];
+                    rigth--;
+                }
+            }
+            return arr;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
