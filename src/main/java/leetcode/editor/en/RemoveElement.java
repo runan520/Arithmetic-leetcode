@@ -74,7 +74,7 @@ import java.util.Arrays;
 public class RemoveElement {
     public static void main(String[] args) {
         Solution solution = new RemoveElement().new Solution();
-        int[] nums = new int[]{2, 2, 2};
+        int[] nums = new int[]{2, 3, 2, 3};
         System.out.println(solution.removeElement(nums, 2));
     }
 
@@ -93,7 +93,7 @@ public class RemoveElement {
                     i++;
                 }
             }
-            return i++;
+            return i;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
