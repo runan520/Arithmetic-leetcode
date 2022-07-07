@@ -17,11 +17,6 @@
       <option name="url" value="http://nexus.ienglish.cn/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="nexus" />
-      <option name="name" value="nexus" />
-      <option name="url" value="http://nexus.ienglish.cn/repository/maven-public/" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="http://nexus.ienglish.cn/repository/maven-public/" />

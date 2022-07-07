@@ -34,17 +34,20 @@ package leetcode.editor.en;
 //too large to hold in memory. Could you solve it efficiently? 
 // Related Topics Array Dynamic Programming Sliding Window 👍 1115 👎 23
 
-public class MaxConsecutiveOnesIi{
-  public static void main(String[] args) {
-    Solution solution = new MaxConsecutiveOnesIi().new Solution();
-    
-  }
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int findMaxConsecutiveOnes(int[] nums) {
-        return 0;
+public class MaxConsecutiveOnesIi {
+    public static void main(String[] args) {
+        Solution solution = new MaxConsecutiveOnesIi().new Solution();
+        int[] nums = new int[]{1, 0, 1, 1, 1, 0, 1};
+        System.out.println(solution.findMaxConsecutiveOnes(nums));
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int findMaxConsecutiveOnes(int[] nums) {
+
+            return 0;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
