@@ -44,8 +44,30 @@ public class MaxConsecutiveOnesIi {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int findMaxConsecutiveOnes(int[] nums) {
+            int longSquare = 0;
+            int numZeros = 0;
+            int right = 0;
+            int left = 0;
+            int n = nums.length;
 
-            return 0;
+            while (right < n) {
+
+                if (nums[right] == 0) {
+                    numZeros++;
+                }
+
+                while (numZeros == 2) {
+                    if (nums[left] == 0) {
+                        numZeros--;
+                    }
+                    left++;
+                }
+
+                longSquare = Math.max(longSquare, right - left + 1);
+                right++;
+            }
+
+            return longSquare;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
