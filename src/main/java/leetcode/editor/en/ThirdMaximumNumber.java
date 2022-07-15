@@ -51,17 +51,55 @@ package leetcode.editor.en;
 //Follow up: Can you find an O(n) solution? Related Topics Array Sorting 👍 1732
 // 👎 2340
 
-public class ThirdMaximumNumber{
-  public static void main(String[] args) {
-    Solution solution = new ThirdMaximumNumber().new Solution();
-    
-  }
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int thirdMax(int[] nums) {
-        return 0;
+import java.util.*;
+
+public class ThirdMaximumNumber {
+    public static void main(String[] args) {
+        Solution solution = new ThirdMaximumNumber().new Solution();
+        int[] nums = new int[]{1, 2,3};
+        System.out.println(solution.thirdMax(nums));
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int thirdMax(int[] nums) {
+
+            int length = nums.length;
+
+            List<Integer> thirdNumsList = new ArrayList<Integer>();
+            Set<Integer> thirdNumsSet = new HashSet<Integer>(3);
+
+            for (int i = 0; i < length; i++) {
+                thirdNumsSet.add(nums[i]);
+            }
+
+            int containNums = 3;
+            for (Integer n : thirdNumsSet) {
+                thirdNumsList.add(n);
+                containNums--;
+
+                if (containNums == 0) {
+                    break;
+                }
+            }
+
+            if (thirdNumsList.size() < 3) {
+                Collections.sort(thirdNumsList);
+                return thirdNumsList.get(thirdNumsList.size() - 1);
+            }
+
+            for (int num : thirdNumsSet) {
+                Collections.sort(thirdNumsList);
+
+                if (num > thirdNumsList.get(0) && !thirdNumsList.contains(num)) {
+                    thirdNumsList.set(0, num);
+                }
+            }
+
+            Collections.sort(thirdNumsList);
+            return thirdNumsList.get(0);
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
