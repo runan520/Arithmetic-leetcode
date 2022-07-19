@@ -25,21 +25,39 @@ package leetcode.editor.en;
 //assume the returned list does not count as extra space. 
 // Related Topics Array Hash Table 👍 6702 👎 391
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
-public class FindAllNumbersDisappearedInAnArray{
-  public static void main(String[] args) {
-    Solution solution = new FindAllNumbersDisappearedInAnArray().new Solution();
-    
-  }
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public List<Integer> findDisappearedNumbers(int[] nums) {
-        List<Integer> list = new ArrayList<>();
-        return list;
+public class FindAllNumbersDisappearedInAnArray {
+    public static void main(String[] args) {
+        int[] nums = new int[]{10, 2, 5, 10, 9, 1, 1, 4, 3, 7};
+        Solution solution = new FindAllNumbersDisappearedInAnArray().new Solution();
+        System.out.println(solution.findDisappearedNumbers(nums));
     }
-}
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public List<Integer> findDisappearedNumbers(int[] nums) {
+
+            for (int i = 0; i < nums.length; i++) {
+                int index = Math.abs(nums[i]) - 1;
+
+                if (nums[index] > 0) {
+                    nums[index] *= -1;
+                }
+            }
+
+            List<Integer> list = new LinkedList<Integer>();
+
+            for (int i = 0; i < nums.length; i++) {
+                if (nums[i] > 0) {
+                    list.add(i+1);
+                }
+            }
+
+            return list;
+        }
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
