@@ -34,8 +34,6 @@ package leetcode.editor.en;
 //could you find an O(n) solution using a different approach? Related Topics Array 
 //Two Pointers Sorting 👍 5454 👎 157
 
-import java.util.Arrays;
-
 public class SquaresOfASortedArray {
     public static void main(String[] args) {
         Solution solution = new SquaresOfASortedArray().new Solution();
@@ -46,12 +44,27 @@ public class SquaresOfASortedArray {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] sortedSquares(int[] nums) {
-            for (int i = 0; i < nums.length; i++) {
-                nums[i] = (int) Math.pow(nums[i], 2);
-            }
-            Arrays.sort(nums);
 
-            return nums;
+            int left = 0;
+            int right = nums.length -1;
+            int[] result = new int[nums.length];
+
+            for (int i = nums.length - 1; i >= 0; i--) {
+                int squares = 0;
+
+                if (Math.abs(nums[left]) > Math.abs(nums[right])) {
+                    squares = nums[left];
+                    left++;
+                } else {
+                    squares = nums[right];
+                    right--;
+                }
+
+                result[i] = squares * squares;
+            }
+
+
+            return result;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
