@@ -30,7 +30,7 @@ package leetcode.editor.en;
 public class LongestPalindromicSubstring{
   public static void main(String[] args) {
     Solution solution = new LongestPalindromicSubstring().new Solution();
-    
+    solution.longestPalindrome("xabav");
   }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
