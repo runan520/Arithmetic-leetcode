@@ -68,19 +68,21 @@ public class ReverseLinkedList {
     class Solution {
         public ListNode reverseList(ListNode head) {
             ListNode prev = null;
-            ListNode curr = head;
+//            ListNode curr = head;
 
-            while (curr != null) {
-                ListNode temp = curr.next;
-                curr.next = prev;
-                prev = curr;
-                curr = temp;
+            while (head != null) {
+                ListNode temp = head.next;
+                head.next = prev;
+                prev = head;
+                head = temp;
             }
             return prev;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
-
+/**
+ * 反转的链表，开始时可以选择把head保存下来，在循环中必须把第二个node暂时保存，然后在循环内就是把后面的按顺序移到前面。
+ */
 }
 
  
