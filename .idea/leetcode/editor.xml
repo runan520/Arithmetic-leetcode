@@ -344,6 +344,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/editor/en/[430]Flatten a Multilevel Doubly Linked List.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/FlattenAMultilevelDoublyLinkedList.md" />
+              <option name="frontendQuestionId" value="leetcode.com430" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/editor/en/FlattenAMultilevelDoublyLinkedList.java" />
+              <option name="titleSlug" value="flatten-a-multilevel-doubly-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

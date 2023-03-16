@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7412c4b6-8a11-452f-a615-409abd137cc3" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/wupeng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/RichNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/T10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/T13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/T81.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/TestAB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/TestPa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/TestUU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/[430]Flatten a Multilevel Doubly Linked List.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/solution/flatten-a-multilevel-doubly-linked-list.lcv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/86A12349-24F1-44ea-993F-F003CC865C91.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/CE1A01C4-3AF7-48be-83A7-03588B99579A.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/Ar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/FinalMethodTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/Key.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/T10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/T13$C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/T13$P.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/T13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/T2$Children.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/T2$Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/T2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/T81.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/TestAB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/TestPa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/TestUU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/URLName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/CheckIfNAndItsDoubleExist$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/CheckIfNAndItsDoubleExist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/DuplicateZeros$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/DuplicateZeros.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/FindAllNumbersDisappearedInAnArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/FindAllNumbersDisappearedInAnArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/FindNumbersEvenNumberDigits$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/FindNumbersEvenNumberDigits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/HeightChecker$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/HeightChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/IntersectionOfTwoLinkedLists$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/IntersectionOfTwoLinkedLists$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/IntersectionOfTwoLinkedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LinkedListCycle$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LinkedListCycle$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LinkedListCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LinkedListCycleIi$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LinkedListCycleIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LinkedListCycleIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MaxConsecutiveOnesIi$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MaxConsecutiveOnesIi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MergeSortedArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MergeSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MergeTwoSortedLists$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MergeTwoSortedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MoveZeroes$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MoveZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/PalindromeLinkedList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/PalindromeLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/PalindromeLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/PowerOfThree$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/PowerOfThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/PrintInOrder$Foo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/PrintInOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RemoveDuplicatesFromSortedArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RemoveElement$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RemoveElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RemoveNthNodeFromEndOfList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RemoveNthNodeFromEndOfList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RemoveNthNodeFromEndOfList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ReplaceElementsGreatestElementRightSide$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ReplaceElementsGreatestElementRightSide.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ReverseInteger$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ReverseInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ReverseLinkedList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ReverseLinkedList$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ReverseLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RomanToInteger$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/RomanToInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/SortArrayByParity$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/SortArrayByParity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/SquaresOfASortedArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/SquaresOfASortedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ThirdMaximumNumber$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ThirdMaximumNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/UniquePaths$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/UniquePaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ValidMountainArray$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ValidMountainArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/PrintWriters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/azure/azureSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/azure/azureSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/dell.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/dell.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_21_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_21_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__wuroc_algs_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/algs4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/hello.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/hello.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b06c18b0683548ef9d6d8e47a1adc4cc6bcc006" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b06c18b0683548ef9d6d8e47a1adc4cc6bcc006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/496a238a6afa168dbaf6efd37bb459331589579c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8ffefcd27b7a105a8611aa8c1662342b4281ef07" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8ffefcd27b7a105a8611aa8c1662342b4281ef07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/939b90081dd26b58fccbcf14721ddc70065f1f41" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/939b90081dd26b58fccbcf14721ddc70065f1f41" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e088b16f4efcf5a2668ad5f6ac2a2cefdd5f6e2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e088b16f4efcf5a2668ad5f6ac2a2cefdd5f6e2f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arithmetic-leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic-leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/algs4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/algs4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Dt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Dt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Exc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Exc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/FinalMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/FinalMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Hbqz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Hbqz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/LockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/MaxThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/MaxThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/MaxThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/MaxThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/ObjNullComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/ObjNullComputer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/OneWrj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/OneWrj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/TestExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/TestExc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/URLName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/URLName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/UUIDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/UUIDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/HelloGoodbye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/HelloGoodbye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/RandomWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/RandomWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/hello.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/hello.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/hello/HelloGoodbye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/hello/HelloGoodbye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/hello/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/hello/RandomWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/hello/RandomWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BaoHanMinhanShuDeZhanLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/BaoHanMinhanShuDeZhanLcof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CheckIfNumbersAreAscendingInASentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/CheckIfNumbersAreAscendingInASentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/DivideTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/DivideTwoIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/GroupAnagramsLcci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/GroupAnagramsLcci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/IntegerToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LruCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/LruCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/NumberOfAtoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/NumberOfAtoms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/StringToIntegerAtoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/StringToIntegerAtoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ZigzagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/ZigzagConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/AddTwoNumbers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/AddTwoNumbers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/ContainerWithMostWater.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/ContainerWithMostWater.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/CountAndSay.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/CountAndSay.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/DesignAddAndSearchWordsDataStructure.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/DesignAddAndSearchWordsDataStructure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/DivideTwoIntegers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/DivideTwoIntegers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/FindPivotIndex.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/FindPivotIndex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/FizzBuzz.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/FizzBuzz.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/IntegerToRoman.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/IntegerToRoman.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/LongestCommonPrefix.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/LongestCommonPrefix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/LongestSubstringWithoutRepeatingCharacters.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/LongestSubstringWithoutRepeatingCharacters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/LruCache.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/LruCache.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/MajorityElementIi.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/MajorityElementIi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/PalindromeNumber.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/PalindromeNumber.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/RegularExpressionMatching.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/RegularExpressionMatching.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/RemoveElement.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/RemoveElement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/ReorderList.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/ReorderList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/StringToIntegerAtoi.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/StringToIntegerAtoi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/ThreeSum.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/cn/doc/content/ThreeSum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/CheckIfNAndItsDoubleExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/CheckIfNAndItsDoubleExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/CombineTwoTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/CombineTwoTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/DuplicateZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/DuplicateZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/FindAllNumbersDisappearedInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/FindAllNumbersDisappearedInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/FindNumbersEvenNumberDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/FindNumbersEvenNumberDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/FlattenAMultilevelDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/FlattenAMultilevelDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/HeightChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/HeightChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/IntersectionOfTwoLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/IntersectionOfTwoLinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/LinkedListCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/LinkedListCycleIi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/LinkedListCycleIi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MaxConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MaxConsecutiveOnesIi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MaxConsecutiveOnesIi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MedianOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MinimumNumberOfOperationsToConvertTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MinimumNumberOfOperationsToConvertTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MultiplyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MultiplyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MultiplyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/MultiplyStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/PowerOfThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/PowerOfThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/PrintInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/PrintInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ReplaceElementsGreatestElementRightSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ReplaceElementsGreatestElementRightSide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/SortArrayByParity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/SortArrayByParity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/SquaresOfASortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/SquaresOfASortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ThirdMaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ThirdMaximumNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ValidMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/ValidMountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/AddTwoNumbers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/AddTwoNumbers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/CombineTwoTables.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/CombineTwoTables.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ContainerWithMostWater.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ContainerWithMostWater.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/DuplicateZeros.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/DuplicateZeros.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/FindAllNumbersDisappearedInAnArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/FindAllNumbersDisappearedInAnArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/FlattenAMultilevelDoublyLinkedList.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/FlattenAMultilevelDoublyLinkedList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/FourSum.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/FourSum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/IntersectionOfTwoLinkedLists.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/IntersectionOfTwoLinkedLists.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LastStoneWeight.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LastStoneWeight.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LinkedListCycle   .md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LinkedListCycle   .md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LinkedListCycleIi.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LinkedListCycleIi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LongestPalindromicSubstring.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LongestPalindromicSubstring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LongestSubstringWithoutRepeatingCharacters.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/LongestSubstringWithoutRepeatingCharacters.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MaxConsecutiveOnes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MaxConsecutiveOnes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MaxConsecutiveOnesIi.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MaxConsecutiveOnesIi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MedianOfTwoSortedArrays.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MedianOfTwoSortedArrays.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MergeSortedArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MergeSortedArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MergeTwoSortedLists.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MergeTwoSortedLists.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MinimumNumberOfOperationsToConvertTime.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MinimumNumberOfOperationsToConvertTime.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MoveZeroes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MoveZeroes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MultiplyStrings.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/MultiplyStrings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/NextPermutation.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/NextPermutation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/PalindromeLinkedList.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/PalindromeLinkedList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/PowerOfThree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/PowerOfThree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/PrintInOrder.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/PrintInOrder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/RemoveDuplicatesFromSortedArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/RemoveDuplicatesFromSortedArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/RemoveElement.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/RemoveElement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/RemoveNthNodeFromEndOfList.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/RemoveNthNodeFromEndOfList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ReverseInteger.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ReverseInteger.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ReverseLinkedList.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ReverseLinkedList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/RomanToInteger.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/RomanToInteger.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/SortArrayByParity.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/SortArrayByParity.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/SquaresOfASortedArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/SquaresOfASortedArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ThirdMaximumNumber.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ThirdMaximumNumber.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ThreeSum.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ThreeSum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/TwoSum.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/TwoSum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/UniquePaths   .md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/UniquePaths   .md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/UniquePaths.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/UniquePaths.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ValidMountainArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/content/ValidMountainArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/note/LinkedListCycle   .md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/note/LinkedListCycle   .md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/note/ReverseInteger.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/note/ReverseInteger.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/note/UniquePaths   .md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/note/UniquePaths   .md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/solution/linked-list-cycle.lcv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/solution/linked-list-cycle.lcv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/solution/reverse-integer.lcv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/solution/reverse-integer.lcv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/solution/unique-paths.lcv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/doc/solution/unique-paths.lcv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/86A12349-24F1-44ea-993F-F003CC865C91.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/86A12349-24F1-44ea-993F-F003CC865C91.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/CE1A01C4-3AF7-48be-83A7-03588B99579A.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CE1A01C4-3AF7-48be-83A7-03588B99579A.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/a.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrintWriters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrintWriters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HelloGoodbye.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HelloGoodbye.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RandomWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RandomWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/Dt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/Dt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/Exc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/Exc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/FinalMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/FinalMethodTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/Hbqz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/Hbqz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/LockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/LockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/MaxThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/MaxThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/MaxThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/MaxThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/ObjNullComputer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/ObjNullComputer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/OneWrj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/OneWrj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/TestExc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/TestExc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/UUIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wuroc/javatest/UUIDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/algs4/cs/princeton/HelloGoodbye.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/algs4/cs/princeton/HelloGoodbye.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/algs4/cs/princeton/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/algs4/cs/princeton/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/algs4/cs/princeton/RandomWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/algs4/cs/princeton/RandomWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/algs4/cs/princeton/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/algs4/cs/princeton/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CheckIfNumbersAreAscendingInASentence$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CheckIfNumbersAreAscendingInASentence$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CheckIfNumbersAreAscendingInASentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/CheckIfNumbersAreAscendingInASentence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainerWithMostWater$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainerWithMostWater$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ContainerWithMostWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DivideTwoIntegers$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DivideTwoIntegers$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DivideTwoIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/DivideTwoIntegers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FizzBuzz$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FizzBuzz$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GroupAnagramsLcci$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GroupAnagramsLcci$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GroupAnagramsLcci.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/GroupAnagramsLcci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntegerToRoman$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntegerToRoman$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntegerToRoman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/IntegerToRoman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestCommonPrefix$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestCommonPrefix$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/MedianOfTwoSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfAtoms$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfAtoms$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfAtoms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/NumberOfAtoms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/RemoveElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/StringToIntegerAtoi$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/StringToIntegerAtoi$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/StringToIntegerAtoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/StringToIntegerAtoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ThreeSum$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ThreeSum$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof$CQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof$CQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/YongLiangGeZhanShiXianDuiLieLcof.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZigzagConversion$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZigzagConversion$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZigzagConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/cn/ZigzagConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/AddTwoNumbers$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/AddTwoNumbers$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ContainerWithMostWater$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ContainerWithMostWater$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ContainerWithMostWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LongestPalindromicSubstring$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LongestPalindromicSubstring$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LongestPalindromicSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LongestPalindromicSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MaxConsecutiveOnes$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MaxConsecutiveOnes$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MaxConsecutiveOnes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MedianOfTwoSortedArrays$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MedianOfTwoSortedArrays$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MedianOfTwoSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MedianOfTwoSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MinimumNumberOfOperationsToConvertTime$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MinimumNumberOfOperationsToConvertTime$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MinimumNumberOfOperationsToConvertTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MinimumNumberOfOperationsToConvertTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MultiplyString$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MultiplyString$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MultiplyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MultiplyString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MultiplyStrings$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MultiplyStrings$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MultiplyStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/MultiplyStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/NextPermutation$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/NextPermutation$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/NextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/NextPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ThreeSum$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ThreeSum$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/TwoSum$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/TwoSum$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/editor/en/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/editor/en/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/leetcode/editor/en/FlattenAMultilevelDoublyLinkedList.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2La9q8jHvCYNzrpDtW2sBmIbUjt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="应用程序.T2">
+    <configuration name="Dt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wuroc.javatest.Dt" />
+      <module name="Arithmetic-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuroc.javatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wuroc.javatest.T13" />
+      <module name="Arithmetic-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuroc.javatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2$Children" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wuroc.javatest.T2$Children" />
+      <module name="Arithmetic-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuroc.javatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wuroc.javatest.T2" />
+      <module name="Arithmetic-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuroc.javatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T81" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wuroc.javatest.T81" />
+      <module name="Arithmetic-leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wuroc.javatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.T2" />
+        <item itemvalue="应用程序.T2$Children" />
+        <item itemvalue="应用程序.T13" />
+        <item itemvalue="应用程序.Dt" />
+        <item itemvalue="应用程序.T81" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="项目级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7412c4b6-8a11-452f-a615-409abd137cc3" name="变更" comment="" />
+      <created>1676098514393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676098514393</updated>
+      <workItem from="1676098516765" duration="446000" />
+      <workItem from="1676098966430" duration="5000" />
+      <workItem from="1676098982115" duration="3726000" />
+      <workItem from="1676106618838" duration="2073000" />
+      <workItem from="1676266372485" duration="2525000" />
+      <workItem from="1676795123062" duration="13767000" />
+      <workItem from="1678948426419" duration="3243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Dt.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wuroc/javatest/TestPa.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/wuroc/javatest/TestPa.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -9,5 +9,16 @@ package com.wuroc.javatest;
  * @Blog https://www.cnblogs.com/WLCYSYS/
  **/
 public class FinalMethodTest {
-
+    public static void main(String args []) {
+    Thread t = new Thread() {
+    public void run() {
+            world();
+        }
+    };
+            t.run();
+            System.out.print("hello ");
+        }
+        static void world() {
+                System.out.print("world");
 }
+    }
