@@ -37,7 +37,7 @@ public class Dt {
         String s2 = new String("Hello world");
         String s3 = "Hello" + " world";
         System.out.println(6&15);
-        System.out.println(Arrays.stream("a|b|c".split("[0-9]{3}")).toList());
+//        System.out.println(Arrays.stream("a|b|c".split("[0-9]{3}")).toList());
         Integer a = 88, b = 88;
 //        System.out.println('[0-9]{3}' + "");
 //        new ObjectInputStream(new FileInputStream("a.dat"));
