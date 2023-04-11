@@ -14,8 +14,8 @@ public static void printSet (Set s) {
     for (Object o : s)
         System.out.println(o);
 }
-public static void printSet1 (Set<Integer> s) {
-        s.add (10);
+public static void printSet1 (Set<?> s) {
+//        s.add (10);
         for (Object o : s)
         {
         System.out.println(o);
