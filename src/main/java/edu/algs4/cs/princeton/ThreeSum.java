@@ -1,7 +1,6 @@
 package edu.algs4.cs.princeton;
 
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdOut;
+
 
 /**
  * @ClassName ThreeSum
@@ -12,11 +11,6 @@ import edu.princeton.cs.algs4.StdOut;
  * @Blog https://www.cnblogs.com/WLCYSYS/
  **/
 public class ThreeSum {
-
-    public static void main(String[] args) {
-        int[] a = In.readInts(args[0]);
-        StdOut.println(count(a));
-    }
 
     private static int count(int[] a) {
         int N = a.length;

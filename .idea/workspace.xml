@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7412c4b6-8a11-452f-a615-409abd137cc3" name="变更" comment="泛型测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Abb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wuroc/javatest/Abb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/RandomWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/RandomWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/algs4/cs/princeton/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/editor/en/AddTwoNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +140,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.BubbleSort" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="项目级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -163,6 +170,7 @@
       <workItem from="1680167688502" duration="5427000" />
       <workItem from="1680232500315" duration="20000" />
       <workItem from="1680232524839" duration="1235000" />
+      <workItem from="1681184634623" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1680105900724</created>
@@ -199,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680233544366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="泛型测试">
+      <created>1681184762401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681184762401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
